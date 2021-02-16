@@ -1,1 +1,63 @@
-style.css
+* {
+    margin: 0;
+    padding 0;
+    box-sizing: border-box;
+  }
+  
+  @import url('https://fonts.googleapis.com/css2 family=Public+Sans:wght@400;600&display=swap');
+  
+  .body {
+    font-family: 'Public Sans', sans-serif;
+  }
+  
+  .screen {
+    background-color: #FFFBF2;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    
+    border: 35px black solid;
+  }
+  
+  .screen__board {
+    font-family: 'Public Sans', sans-serif;
+    display: flex;
+    height: 30%;
+    width: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+  .screen__board-title {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+  /*   line-height; 1000px; */
+  }
+  
+  span {
+    font-size: 24px;
+  /*   line-height; 100px; */
+  }
+  
+  /* .screen__board-sub {
+    font-size: 24px;
+    font-weight: 400;
+  } */
+  
+  .screen__board-bio {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+  }
+  
+  .screen__board-feats {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+  }
